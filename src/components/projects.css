@@ -1,0 +1,64 @@
+.projects{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects > h2{
+    width: 100%;
+    background: -webkit-linear-gradient(#FF512F , #DD2476);
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: 'Fugaz One', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn > h4{
+    background: -webkit-linear-gradient(#FF512F , #DD2476);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px;
+}
+.projects > img{
+    width: 90%;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(white, 0.2),
+                0 6px 20px 0 rgba(white, 0.19);
+}
+
+.btn > a{
+    font-family: 'Fugaz One', cursive;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(#FF512F , #DD2476);
+    border-radius: 20px;
+}
+
+@media screen and (max-width:866px) {
+    .btn{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

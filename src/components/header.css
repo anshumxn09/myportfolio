@@ -1,0 +1,48 @@
+.header{
+    max-width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-family: 'Fugaz One', cursive;
+    overflow: hidden;
+}
+
+.header  > .logo{
+    background: -webkit-linear-gradient(#FF512F , #DD2476);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #ED1E79;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.featured > a{
+    margin: 5px 8px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#FF512F , #DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.featured > a:hover{
+    text-shadow: 2px 2px 4px #ED1E79;
+}
+
+.contactMe > a{
+    background: linear-gradient(#FF512F , #DD2476);
+    color:white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:866px) {
+    .featured{
+        display: none;
+    }
+}
