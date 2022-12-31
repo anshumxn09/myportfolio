@@ -9,7 +9,7 @@ const Interest = () => {
     <>
       <div className="languages" id="int">
         <h1>Interested Fields</h1>
-        <div className="interest">
+        <div className="interest" data-aos="fade-right">
             {
                 interest.map((elem) => {
                     return (

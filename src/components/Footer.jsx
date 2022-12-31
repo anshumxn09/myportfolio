@@ -6,10 +6,10 @@ const Footer = () => {
     <div className='footer'>
     <h1 id='social'>Social Links</h1>
         <div className="social">
-            <a href="https://github.com/anshumxn09"><ion-icon name="logo-github" className="logo-github"></ion-icon></a>
-            <a href='mailto:sharmaaanshumaan@gmail.com'><ion-icon name="mail"></ion-icon></a>
-            <a href="https://www.linkedin.com/in/anshumxn09/"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="https://twitter.com/Anshuma48590279"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://github.com/anshumxn09"><ion-icon name="logo-github" className="logo-github" data-aos="zoom-out"></ion-icon></a>
+            <a href='mailto:sharmaaanshumaan@gmail.com'><ion-icon name="mail" data-aos="zoom-out"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/anshumxn09/"><ion-icon name="logo-linkedin" data-aos="zoom-out"></ion-icon></a>
+            <a href="https://twitter.com/Anshuma48590279"><ion-icon name="logo-twitter" data-aos="zoom-out"></ion-icon></a>
         </div>
         <div className="foot_content">
             <h3>Made with ❤ and ReactJS</h3>

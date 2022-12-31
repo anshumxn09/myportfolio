@@ -5,8 +5,9 @@ const AboutMe = () => {
   return (
     <div className='about-container' id='about'>
         <div className="details">
+            <h2>Hello World, Myself</h2>
             <h1>Anshuman Sharma</h1>
-            <p>Passionate to learn new technologies coming up in the DIGITAL WORLD. <br /> Sharping my SKILLS to gain more and more logic to work with Industry. <br /> Confident in learning any of the tools, creative to build any of the <br /> application with team leading skills.</p>
+            <p>Passionate to learn new technologies coming up in the DIGITAL WORLD, <br />  Sharpening my SKILLS to gain more and more logic to work with Industry.</p>
         </div>
         <div className="myImage">
             <div className="imgContainer">

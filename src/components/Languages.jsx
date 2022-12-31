@@ -9,12 +9,12 @@ const Languages = () => {
       name : "C++"
     },
     {
-      img : "https://cdn-icons-png.flaticon.com/512/152/152760.png",
-      name : "JAVA"
-    },
-    {
       img : "https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-512.png",
       name : "PYTHON"
+    },
+    {
+      img : "https://res.cloudinary.com/anshumxn09/image/upload/v1672523285/test/png-clipart-react-computer-icons-redux-javascript-others-symmetry-electron-removebg-preview_jvlopr.png",
+      name : "REACT"
     },
     {
       img : "https://cdn.icon-icons.com/icons2/2389/PNG/512/javascript_logo_icon_145155.png",
